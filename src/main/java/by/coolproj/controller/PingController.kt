@@ -4,10 +4,10 @@ import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-class ChatController {
+class PingController {
 
-    @GetMapping("/hello")
-    fun hello(): String {
-        return "HellO!"
+    @GetMapping("/ping")
+    fun ping(): String {
+        return "success!"
     }
 }
